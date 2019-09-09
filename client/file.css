@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #18191D;
+    font-family: Rajdhani;
+}
+
+#main {
+    width: 100%;
+    height: 120vw;
+}
+
+#main #container {
+    padding: 0px 20px 0px 20px;
+}
+
+#main #container #header {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    height: 80px;
+    padding: 10px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main #container #header h1 {
+    font-size: 30px;
+}
+
+
+#main #container #header ul {
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#main #container #header ul li {
+    width: auto;
+    height: 40px;
+
+    list-style: none;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 15px;
+
+    padding: 0px 7px 0px 7px;
+
+    color: #bdbdbd;
+    line-height: 40px;
+    text-align: center;
+
+    border : 1px solid #18191D;
+    transition : 400ms ease-out;
+}
+
+#main #container #header ul li:hover {
+    border-bottom: 1px solid #bdbdbd;
+    color: white;
+}
+
+#main #container #header-top {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#main #container #header-top .outer .panel p {
+    width: 600px;
+}
+
+#main #container #header-top .outer h1 {
+    font-size: 70px;
+}
+
+#main #container .head {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+#main #container .head .panel .about {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#main #container .head .panel .about .price {
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    border: 3px dashed #212226;
+    margin: 10px 25px 10px 0px;
+    border-radius: 6px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+
+#main #container .head .panel .about .price h3 {
+    color: #7289DA;
+}
+
+#main #container .head .panel {
+    width: 100%;
+    height: 100%;
+}
+
+#main #container .head .panel h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#main #container #middle {
+    height: 400px;
+}
+
+#main #container #middle .panel h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#main #container #middle .panel p {
+    width: 540px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#main #container #middle .panel b {
+    font-size: 20px;
+    width: 540px;
+    display: inline-block;
+    padding-bottom: 15px;
+    color: #cdcdcd;
+}
+
+#main #container #header-top {
+    height: 600px;
+    margin-top: 150px;
+}
+
+#main #container #header-top .outer {
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#main #container .head .outer {
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#main #container .head .outer .bg {
+    width: 600px;
+}
+
+#main #container .head .outer .panel .subtitle {
+    width: 801px;
+    font-weight: 600;
+}
+
+#main #container .head .outer .panel p {
+    font-size: 21px;
+    font-weight: 200;
+    color: #cdcdcd;
+    padding-bottom: 15px;
+}
+
+#main #container .head .outer .panel .button {
+    width: 190px;
+    height: 47px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 0px;
+    float: left;
+    transition: .4s;
+}
+
+#main #container .head .outer .panel .button:hover {
+    transform: scale(1.04);
+}
+
+#main #container .head .outer .panel #discord-login {
+    background-color: #7289DA;
+}
+
+#main #container .head .outer .panel #discord-login:hover {
+    background-color: #5664ab;
+}
+
+#main #container .head .outer .panel #normal-login {
+    background-color: transparent;
+    border: 1px solid #7289DA;
+    color: #7289DA;
+}
+
+#main #container .head .outer .panel #normal-login:hover {
+    background-color: transparent;
+    border: 1px solid #5664ab;
+    color: #5664ab;
+}
+
+#main #container .head .outer .panel .button img {
+    width: 20px;
+    height: 20px;
+
+    filter: brightness(0) invert(1);
+    margin: 5px 10px 5px 0px;
+}

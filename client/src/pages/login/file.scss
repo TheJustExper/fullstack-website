@@ -1,0 +1,143 @@
+:root {
+  --red-color: #ff0039;
+  --red-color-darker: #cc002c;
+
+  --blue-color: #0095ff;
+  --blue-color-darker: #007bff;
+
+  --dark-dark-blue: #19191f;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+}
+
+#login-outer {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  #information {
+    width: 500px;
+    margin: 30px;
+
+    h1 {
+      color: white;
+    }
+
+    p {
+      color: #a0a0a0;
+      font-weight: 500;
+      font-size: 21px;
+      padding-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--blue-color);
+      text-align: center;
+      transition: 400ms ease-out;
+    }
+  }
+
+  #login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    transform: scale(1.1);
+
+    h1 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #a0a0a0;
+      padding-bottom: 10px;
+    }
+
+    label {
+      color: #848484;
+      float: left;
+      margin-top: 15px;
+      position: relative;
+      top: 5px;
+      font-weight: 500;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    input {
+      width: 100%;
+      height: 45px;
+      margin-top: 15px;
+      padding-left: 15px;
+      box-sizing: border-box;
+      background: var(--dark-dark-blue);
+      border: none;
+      color: #cdcdcd;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--blue-color);
+      text-align: center;
+      transition: 400ms ease-out;
+    }
+
+    button {
+      width: 100%;
+      height: 45px;
+      border-radius: 2px;
+      background-color: var(--blue-color);
+      outline: none;
+      border: none;
+      color: white;
+      font-weight: 600;
+      margin-top: 30px;
+      transition: .4s;
+
+      &:hover {
+        transform: scale(1.04);
+        background-color: var(--blue-color-darker);
+      }
+    }
+
+    .error {
+      color: rgb(235, 67, 53);
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .links {
+      color: #a0a0a0;
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}
+
+.active {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}

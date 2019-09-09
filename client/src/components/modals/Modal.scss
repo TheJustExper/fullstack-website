@@ -1,0 +1,76 @@
+.modal {
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #212226;
+  border-radius: 5px;
+  z-index: 99999;
+  padding: 20px;
+
+  .close {
+    float: right;
+    font-size: 20px;
+    color: #393e4b;
+    font-weight: 700;
+
+    &:hover {
+      color: white;
+      transform: scale(1.02);
+    }
+  }
+
+  .inner {
+    width: 550px;
+    height: 100%;
+
+    h1 {
+      color: white;
+      font-size: 25px;
+      padding-bottom: 10px;
+    }
+
+    p {
+      color: #bdbdbd;
+      font-weight: 500;
+      font-size: 18px;
+      text-overflow: initial;
+      padding-bottom: 10px;
+    }
+
+    b {
+      font-weight: 500;
+      font-size: 18px;
+      color: white;
+    }
+
+    a {
+      padding-top: 25px;
+      font-weight: 700;
+      font-size: 18px;
+      color:#0F8FC2;
+    }
+
+    button {
+      width: 120px;
+      height: 40px;
+      border-radius: 2px;
+      background-color: #7289DA;
+      outline: none;
+      border: none;
+      color: white;
+      font-weight: 600;
+      margin-top: 30px;
+      transition: .4s;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+
+      &:hover {
+        background-color: #5664ab;
+      }
+    }
+  }
+}

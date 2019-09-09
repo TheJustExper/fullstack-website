@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap);
+
+:root {
+  --red-color: #ff0039;
+  --red-color-darker: #cc002c;
+
+  --blue-color: #0095ff;
+  --dark-blue-color: #007cd4;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-linear-gradient(180deg,#15161a,#131317 50%);
+  font-family: Rajdhani;
+}
+
+#root {
+  width: 100%;
+  height: 120vw;
+}
+
+#root #container #header {
+  max-width: 100%;
+  margin: 0 auto;
+
+  height: 80px;
+  padding: 10px 20px 10px 20px;
+
+  color: white;
+
+  background-image: -webkit-linear-gradient(180deg,#131317,#131317);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#root #container #header h1 {
+  font-size: 30px;
+}
+
+
+#root #container #header ul {
+  width: auto;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#root #container #header ul li {
+  width: auto;
+  height: 40px;
+
+  list-style: none;
+  font-weight: 700;
+  font-size: 13px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  margin-right: 15px;
+
+  padding: 0px 7px 0px 7px;
+
+  color: #bdbdbd;
+  line-height: 40px;
+  text-align: center;
+
+  transition : 400ms ease-out;
+
+
+  &:hover {
+    border-bottom: 1px solid #bdbdbd;
+    color: white;
+  }
+}
+
+#root #container #header .router-to {
+    width: auto;
+    height: 40px;
+
+    list-style: none;
+    font-weight: 700;
+    font-size: 13px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-right: 15px;
+
+    padding: 0px 7px 0px 7px;
+
+    color: #bdbdbd;
+    line-height: 40px;
+    text-align: center;
+
+    transition : 400ms ease-out;
+
+
+    &:hover {
+      border-bottom: 1px solid #bdbdbd;
+      color: white;
+    }
+  }
+
+
+#root #container #header-top {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#root #container #header-top .outer .panel p {
+  width: 600px;
+}
+
+#root #container #header-top .outer h1 {
+  font-size: 70px;
+}
+
+#root #container .head {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 200px;
+}
+
+
+#root #container #prices .panel .prices .price h3 {
+  color: #7289DA;
+}
+
+
+#root #container .head .panel .about {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#root #container .head .panel .about .price {
+  width: 300px;
+  height: 300px;
+  display: inline-flex;
+  border: 3px dashed #212226;
+  margin: 10px 25px 10px 0px;
+  border-radius: 6px;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left;
+}
+
+#root #container .head .panel .about .price h3 {
+  color: #7289DA;
+}
+
+#root #container .head .panel {
+  width: 100%;
+  height: 100%;
+}
+
+#root #container .head .panel h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#root #container #middle {
+  height: 400px;
+}
+
+#root #container #middle .panel h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#root #container #middle .panel p {
+  width: 540px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#root #container #middle .panel b {
+  font-size: 20px;
+  width: 540px;
+  display: inline-block;
+  padding-bottom: 15px;
+  color: #cdcdcd;
+}
+
+#root #container #header-top {
+  margin-top: 150px;
+}
+
+#root #container #header-top .outer {
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#root #container .head .outer {
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#root #container .head .outer .bg {
+  width: 600px;
+}
+
+#root #container .head .outer .panel .subtitle {
+  width: 801px;
+  font-weight: 600;
+}
+
+#root #container .head .outer .panel p {
+  font-size: 21px;
+  font-weight: 200;
+  color: #cdcdcd;
+  padding-bottom: 15px;
+}
+
+#root #container .head .outer .panel .button {
+  width: 190px;
+  height: 47px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px 10px 0px;
+  float: left;
+  transition: .4s;
+}
+
+#root #container .head .outer .panel .button:hover {
+  transform: scale(1.04);
+}
+
+#root #container .head .outer .panel #discord-login {
+  background-color: var(--blue-color);
+}
+
+#root #container .head .outer .panel #discord-login:hover {
+  background-color: var(--blue-color-darker);
+}
+
+#root #container .head .outer .panel #normal-login {
+  background-color: transparent;
+  border: 1px solid var(--blue-color);
+  color: var(--blue-color);
+}
+
+#root #container .head .outer .panel #normal-login:hover {
+  background-color: transparent;
+  border: 1px solid var(--blue-color-darker);
+  color: var(--blue-color-darker);
+}
+
+#root #container .head .outer .panel .button img {
+  width: 20px;
+  height: 20px;
+
+  filter: brightness(0) invert(1);
+  margin: 5px 10px 5px 0px;
+}
+
+.active {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 99999;
+}
